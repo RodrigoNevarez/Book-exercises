@@ -3,13 +3,13 @@ exports.chessboard = function () {
   size = 10;
   row = 0;
 
-  for (let col = 1; col < size*size; ++col){
+  for (let square = 1; square < size*size; ++square){
     row % 2 == 0 ? 
-      col % 2 == 0 ? board += '#' : board += ' '
+      square % 2 == 0 ? board += '#' : board += ' '
     : 
-      col % 2 == 0 ? board += ' ' : board += '#'
+      square % 2 == 0 ? board += ' ' : board += '#'
     
-    if (col % size == 0){
+    if (square % size == 0){
       board += '\n';
       ++row;
     }

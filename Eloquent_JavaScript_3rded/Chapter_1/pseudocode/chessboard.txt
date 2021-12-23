@@ -1,0 +1,18 @@
+Start an empty string representing the board
+Start the size of a single row // The number of columns of each row
+Start the current row
+
+for each square on a board size times size { // Starting from square 1
+  Is the row number even?
+    Is the square number even? Add "#" to board : Add " " to board
+  :
+    Is the square number even? Add " " to board : Add "#" to board
+
+  If we reached the end of a row add a newline to board and jumpt to the next row
+}
+
+print the board.
+
+// -> " # # # #\n
+       # # # # \n 
+        # # # #\n..."

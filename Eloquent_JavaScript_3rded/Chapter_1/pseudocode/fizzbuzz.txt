@@ -1,0 +1,6 @@
+for every number from 1 to 100 {
+  Start an empty string
+  If the current number is a multiple of three: Add Fizz to the string.
+  If the current number is a multiple of five: Add Buzz to the string.
+  print the number if the string remained empty, else print the string.
+}

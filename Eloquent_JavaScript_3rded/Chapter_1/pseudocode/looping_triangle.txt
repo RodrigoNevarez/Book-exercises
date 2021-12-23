@@ -1,0 +1,2 @@
+Start an empty string
+For each row of the triangle: add a '#' to the string and print
