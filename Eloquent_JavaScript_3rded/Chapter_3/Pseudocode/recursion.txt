@@ -1,0 +1,8 @@
+/** Brief: Determines if a number is even.
+ * Parameter number: Whole number.
+ * Return: True or False.
+*/
+
+If the number is 0 return True
+If the number is 1 return False
+is number negative? Repeat previous steps with n + 2 else with n - 2

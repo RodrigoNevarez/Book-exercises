@@ -1,0 +1,10 @@
+/** Brief: Takes two arguments and returns their minimum. 
+ * Parameter first: The first argument.
+ * Parameter second: The second argument.
+ * Return: The smalles argument.
+*/
+
+if the first argument is lower or equal to the second
+  return the first argument
+else
+  return the second argument

@@ -1,0 +1,11 @@
+/** Brief: indicates how many uppercase “B” characters there
+* are in the string
+* Parameter str: string to count B's from.
+* Return: Number of B's in string 
+*/
+
+start a B counter
+for every character on string{
+  if that character is a B the add to the B counter
+}
+return the counter
