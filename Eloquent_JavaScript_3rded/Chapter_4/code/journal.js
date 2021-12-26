@@ -1,4 +1,4 @@
-// ********* This code was extracted from Eloquent JavaScript 3rd edition sandbox *********
+/***** This code was extracted from Eloquent JavaScript 3rd edition sandbox */
 
 var JOURNAL = [
   {"events":["carrot","exercise","weekend"],"squirrel":false},

@@ -1,4 +1,4 @@
-// ********* This code was extracted from Eloquent JavaScript 3rd edition sandbox *********
+/***** This code was extracted from Eloquent JavaScript 3rd edition sandbox */
 // Since the code for most chapter in Eloquent JavaScript isn't
 // written with node's module system in mind, this kludge is used to
 // load dependency files into the global namespace, so that the
