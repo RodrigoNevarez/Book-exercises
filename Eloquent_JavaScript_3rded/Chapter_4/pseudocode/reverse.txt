@@ -1,0 +1,22 @@
+/** Brief: Builds an new array out of another, with its contents in inverse order.
+* Parameter array: array to invert order.
+* Return: A new array that has the same elements in the inverse order.
+*/
+def reverseArray( any[] array ){
+  Declare an empty array to store the inverse order.
+  For each element of the original array:
+    Push the element to the inverse array
+  Return the inverse array
+}
+
+
+/** Brief: Modifies the order of an array's elements to its inverse.
+* Parameter array: array to invert order.
+*/
+def reverseArrayInPlace( any[] array ){
+  Declare and auxiliar variable
+  For each index from zero to the integer middle of the array:
+    copy the element in i in the auxiliar.
+    Overwrite the element in the index 'length of the array-1 minus i' onto the index i
+    Overwrite the copy of i in the index 'length of the array-1 minus i'
+}

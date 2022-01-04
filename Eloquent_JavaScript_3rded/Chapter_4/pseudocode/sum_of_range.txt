@@ -1,0 +1,25 @@
+/** Brief: Builds an array of whole numbers in consecutive increments.
+* Parameter start: Starting number of the range.
+* Parameter end: Ending number of the range.
+* Parameter step: Increments or decrements between each number.
+* Return: An array containing all the numbers from start up to (and including) end.
+*/
+def range( int start, int end, int step ){
+  Define an empty array of numbers
+  For each number from start until end:
+    Push the number into the numbers array
+    Increment 'step' times
+  Return 'numbers' array
+}
+
+
+/** Brief: Computes the sum of an array of numbers.
+* Parameter numbers: Array of numbers.
+* Return: The total sum of the numbers.
+*/
+def sum( int[] numbers) {
+  Define a counter in zero
+  For each number in numbers:
+    Add that number to the counter
+  Return the counter
+}

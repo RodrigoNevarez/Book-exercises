@@ -1,0 +1,38 @@
+A list is a nested set of objects, with the first object holding a reference to the second, 
+the second to the third, and so on.
+
+/** Brief: Builds a list structure given an array.
+* Parameter array: array to build list from.
+* Return: The list deriving from the array.
+*/
+def arrayToList( any[] array ){
+
+} 
+
+/** Brief: Builds an array given a list structure.
+* Parameter list: list to build array from.
+* Return: The array deriving from the list.
+*/
+def listToArray( Object list ){
+
+} 
+
+/** Brief: Takes an element and a list and creates a new list that adds the 
+*   element to the front of the input list.
+* Parameter element: Element to add in front of the list.
+* Parameter list: list to prepend to element.
+* Return: A new list with the given element upfront following input list.
+*/
+def prepend( any element, Object list ){
+
+}
+
+/** Brief: Returns the element at the given position in the list.
+* Parameter list: Input list to return element from.
+* Parameter i: Index number of the list (with zero referring to the first element).
+* Return: Element at the given position in the list.
+* Return: undefined, when there is no such element.
+*/
+def nth( Object list, unsigned int i ){
+
+}

@@ -1,0 +1,10 @@
+/** Brief: Compares object's identity and values of their properties.
+* Parameter obj1: Object to compare.
+* Parameter obj2: Object to compare.
+* Return: true, only if 
+*   - They are the same value
+*   - Are objects with the same properties.
+*/
+def deepEqual( Object obj1, Object obj2 ){
+  
+}
