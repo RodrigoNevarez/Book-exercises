@@ -5,7 +5,7 @@
 def reverseArray( any[] array ){
   Declare an empty array to store the inverse order.
   For each element of the original array:
-    Push the element to the inverse array
+    Unshift the element to the inverse array
   Return the inverse array
 }
 

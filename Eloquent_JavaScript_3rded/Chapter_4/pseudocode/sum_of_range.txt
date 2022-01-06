@@ -3,12 +3,17 @@
 * Parameter end: Ending number of the range.
 * Parameter step: Increments or decrements between each number.
 * Return: An array containing all the numbers from start up to (and including) end.
+* Return: Undefined, if computing range is impossible. 
+*   (can't range(1, 10, -1) or range(1, 10, 0) or range(10, 1, 1))
 */
 def range( int start, int end, int step ){
   Define an empty array of numbers
+
   For each number from start until end:
     Push the number into the numbers array
-    Increment 'step' times
+    Increment/Decrement 'step' times 
+      // Depends wheter start is greater or equal than end
+      // Also check step and greater or equal condition (can't range(1, 10, -1)) 
   Return 'numbers' array
 }
 

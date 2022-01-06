@@ -6,7 +6,11 @@ the second to the third, and so on.
 * Return: The list deriving from the array.
 */
 def arrayToList( any[] array ){
-
+  If the array is empty:
+    Link rest to null, there are no more elements to link.
+  Create an empty list with value equal to the arrays first element
+    and create another list with an array composed of the remaining values of array
+  Return that list
 } 
 
 /** Brief: Builds an array given a list structure.
@@ -14,25 +18,34 @@ def arrayToList( any[] array ){
 * Return: The array deriving from the list.
 */
 def listToArray( Object list ){
-
+  If there are no more elements linked in the list:
+    Return an array that holds the value of the last element of the list.
+  Convert the remaining list of elements into an array.
+  Add value to the beginning of the list
+  Return set array.
 } 
 
-/** Brief: Takes an element and a list and creates a new list that adds the 
+/** Brief: Takes an element and a list and creates a new list with the 
 *   element to the front of the input list.
 * Parameter element: Element to add in front of the list.
 * Parameter list: list to prepend to element.
 * Return: A new list with the given element upfront following input list.
 */
 def prepend( any element, Object list ){
-
+  Return a list with element as 'value' property and old list as 'rest' property.
 }
 
 /** Brief: Returns the element at the given position in the list.
 * Parameter list: Input list to return element from.
 * Parameter i: Index number of the list (with zero referring to the first element).
+*   Refers to the number of calls to function.
 * Return: Element at the given position in the list.
 * Return: undefined, when there is no such element.
 */
 def nth( Object list, unsigned int i ){
-
+  Check if i is out of range: // When calls to the function are exhausted or i is less than 0
+    return undefined
+  If you called nth function i times:
+    Return the value associated to list element.
+  Return another call to nth decrementing i by one and moving to the next element in the list
 }
