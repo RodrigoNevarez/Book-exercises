@@ -7,16 +7,19 @@ const {arrayToList} = require("./list");
 const {listToArray} = require("./list");
 const {prepend} = require("./list");
 const {nth} = require("./list");
+const {deepEqual} = require("./deep_compare");
 
 /***** This code was extracted from Eloquent JavaScript 3rd edition sandbox */
 // load dependencies
 require("./code/load")("code/journal.js", "code/chapter/04_data.js");
 
-exercise = 2;
-
-//console.log("Enter 'ex' for Eloquent JavaScript's example.")
-//console.log("---------------------------")
-//let exercise = prompt("What exercise do you wish to see? ");
+console.log("Enter 'ex' for Eloquent JavaScript's example.")
+console.log("Enter '1' for The sum of a range.")
+console.log("Enter '2' for Reversing an array.")
+console.log("Enter '3' for A List.")
+console.log("Enter '4' for Deep comparison.")
+console.log("---------------------------")
+let exercise = prompt("What exercise do you wish to see? ");
 
 if (exercise == "ex") {
   /***** This code was extracted from Eloquent JavaScript 3rd edition sandbox */

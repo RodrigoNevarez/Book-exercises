@@ -6,5 +6,19 @@
 *   - Are objects with the same properties.
 */
 def deepEqual( Object obj1, Object obj2 ){
-  
+  If both objects have the same identity:
+    Return true.
+
+  If any object is null or isn't the type object:
+    Return false.
+
+  Store the properties of each object in a corresponding array.
+
+  If the length of both key arrays isn't the same:
+    Return false.
+
+  For every key in the first object's keys:
+    If the second object doesn't include the property or both object's properties don't hold the same value:
+      Return false.
+  Return true.
 }
